@@ -1,0 +1,28 @@
+.nav-links {
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+
+nav {
+    margin: 0;
+}
+
+a {
+    padding: 8px 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1d58e2;
+}
+
+.brand {
+    padding: 0;
+    height: 60px;
+}

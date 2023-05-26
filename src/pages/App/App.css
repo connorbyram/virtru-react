@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px 40px;
+  max-width: 1400px;
+}
+
+.flex {
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button {
+  all: unset;
+  padding: 12px 20px;
+  color: white;
+  font-weight: 600;
+  background-color: #1d58e2;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.button:hover {
+  color: white;
+  opacity: 85%;
+}

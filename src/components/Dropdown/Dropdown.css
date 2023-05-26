@@ -1,0 +1,67 @@
+.dropdown-table {
+    margin-top: -30px;
+    width: 100%;
+    display: flex;
+    border-top: solid 2px #ececec;
+}
+
+.columns {
+    padding: 30px 0;
+    display: flex;
+    width: 50%;
+    column-gap: 50px;
+    justify-content: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column a {
+    margin-bottom: 20px;
+}
+
+.feature {
+    padding: 30px;
+    width: 50%;
+    background-color: #FAFAFA;
+    flex-grow: 1;
+}
+
+img {
+    width: 175px;
+}
+
+p {
+    margin: 8px 0 15px;
+    font-weight: 200;
+    line-height: 1.5em;
+    max-width: 50ch;
+}
+
+.cta {
+    margin-top: 40px;
+    display: flex;
+    align-items: start;
+    column-gap: 15px;
+
+}
+
+.cta img {
+    object-fit: contain;
+    height: 100%;
+    width: 230px;
+    border-radius: 15px;
+}
+
+h5 {
+    margin: 0;
+    font-size: 18px;
+    color: blue;
+}
+
+.column a {
+    height: 18px !important;
+    display: block;
+}
